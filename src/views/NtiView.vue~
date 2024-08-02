@@ -1,0 +1,56 @@
+<script>
+
+</script>
+
+
+<template>
+    <h1 class="self-center">Participantes do NTI</h1>
+
+    <div style="padding: 30px;" class="flex-row self-center space-x-8 items-center">
+      <ul>
+	<li>
+	  <h2 class="nome"> José Lemos Neto</h2>
+	  <p> Função: Infra e Marceneiro de Bits</p>
+	</li>
+	<li>
+	  <h2 class="nome">Guilherme Caetano</h2>
+	  <p>Bombril</p>
+	</li>
+	<li><h2 class="nome">Matheus Oliveira</h2>
+	  <p>Funções: Cafeeiro profissional e Técnico em Celulares</p>
+	</li>
+
+	<li>
+	  <h2 class="nome">Cairo Fernandes Procópio</h2>
+	  <p>Bombril</p>
+	</li>
+      </ul>
+      <img src="../assets/sao_joe.png">
+    </div>
+</template>
+
+
+<style scoped>
+
+.nome{
+    @apply font-semibold underline
+}
+  
+@media(min-width: 1024px){
+    .about{
+	 min-height: 100vh;
+	 display: flex;
+	 align-items: center;
+    }
+}
+
+  
+img{
+    display: block;
+    margin: auto;
+    width: 40%;
+    heigth: 300px;
+}
+</style>
+
+

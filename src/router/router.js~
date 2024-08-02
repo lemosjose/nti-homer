@@ -1,0 +1,10 @@
+import {createMemoryHistory, createRouter} from 'vue-router'
+
+
+const routers = [
+    {path: '/nti', component: Nti}
+]
+
+const router
+
+export default router;
